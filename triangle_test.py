@@ -10,7 +10,6 @@ class TriangleTest(unittest.TestCase):
         self.assertTrue( is_triangle(8, 10, 12) )
         self.assertTrue( is_triangle(100, 101, 200) )
         self.assertTrue( is_triangle(0.9, 1.0, 1.1) )
-        self.assertTrue( is_triangle(1, 1, 4) ) # for code coverage
 
     def test_not_triangle(self):
         self.assertFalse( is_triangle(21, 10, 10) )
